@@ -44,10 +44,9 @@ public class PageObecjtProject {
 
         HomePage2 amazonHomePage2 = new HomePage2(driver);
                 amazonHomePage2.ChooseItem();
+
         Homepage3 amazonhomePage3 = new Homepage3(driver);
                 amazonhomePage3.verificationItem();
-
-
 
         //ASSERT
         //Assert.assertTrue(Result.getText().contains("Nintendo Switch"));
